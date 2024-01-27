@@ -1,11 +1,23 @@
 import React from "react";
 import './Navbar.css'
+import logo from '../Assets/logo.png'
+import cart_icon from'../Assets/cart_icon.png'
 
 const Navbar = () => {
     return (
    <div className="navbar ">
-    <h1>HELLO welcome to my shopping app</h1>
+    
+  <div className="nav-logo">
+    <img src={logo} alt="" />
+    <p>shopper</p>
+  </div>
 
+  <ul className="nav-menu">
+    <li>Shop</li>
+    <li>Men</li>
+    <li>Women</li>
+    <li>Kids</li> 
+  </ul>
    </div>
     )
 }
