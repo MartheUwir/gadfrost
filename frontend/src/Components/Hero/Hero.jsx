@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react' 
 import './Hero.css'  
-// import Hero from '../Components/Hero/Hero'
+
 import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <div className="hero_left">
-        <h2>New arrivals Only</h2>
+    <div className="hero">
+      <div className="hero-left">
+        <h2>NEW ARRIVALS ONLY</h2>
     <div>
       <div className="hero-hand-icon">
         <p>new</p>

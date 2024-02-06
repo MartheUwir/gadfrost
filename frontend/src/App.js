@@ -7,14 +7,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Shop from './Pages/Shop';
-import Hero  from './Components/Hero/Hero';
+
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
-        <Hero/>
         <Routes>
           <Route path='/' element={<Shop />} />
           <Route path='/mens' element={<ShopCategory category="mens" />} />
